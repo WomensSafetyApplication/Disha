@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".EmergencyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/emergency"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/emergency_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

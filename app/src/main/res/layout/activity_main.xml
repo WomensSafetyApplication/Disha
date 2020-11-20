@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/emergency"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/emergency_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/emergency"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/tips_for_women"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tips_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/tips_for_women"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/favorite_cont"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/favorite_contacts"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/fav_cont"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/make_complaint"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/make_complaint"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/file_complaint"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/help_me"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/help_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="@string/help_me"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

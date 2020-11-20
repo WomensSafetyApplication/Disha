@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936982750806",
+    "firebase_url": "https://disha-dade6.firebaseio.com",
+    "project_id": "disha-dade6",
+    "storage_bucket": "disha-dade6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936982750806:android:bc894b935eeaaec8337df7",
+        "android_client_info": {
+          "package_name": "com.cbit.disha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936982750806-f5epi0gnlff82vsbu9ojp9a57qh3r9le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cbit.disha",
+            "certificate_hash": "db4f13310d9f0b7f38a6f58a5f096e11e042f2cb"
+          }
+        },
+        {
+          "client_id": "936982750806-is0vil9ivi7lj13hfppjnc2mgp4c0d25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41_-5UBCDKpQ8g4VMAdbQ7p2QiAR4DK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936982750806-is0vil9ivi7lj13hfppjnc2mgp4c0d25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
